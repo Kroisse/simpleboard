@@ -1,0 +1,20 @@
+[package]
+name = "simpleboard"
+version = "0.1.0"
+authors = ["Eunchong Yu <kroisse@gmail.com>"]
+
+[[bin]]
+name = "simpleboard"
+path = "src/bin.rs"
+
+[dependencies]
+iron = "^0.1"
+logger = "^0.0.3"
+mount = "^0.0.7"
+staticfile = "^0.0.3"
+plugin = "^0.2"
+postgres = "^0.9"
+handlebars-iron = { version = "^0.8.2", features = ["watch"] }
+r2d2 = "^0.6"
+r2d2_postgres = "^0.9"
+rustc-serialize = "^0.3.16"
